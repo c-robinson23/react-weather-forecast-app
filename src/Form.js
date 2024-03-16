@@ -39,7 +39,7 @@ export default function Form() {
 
         <div class="weather-forecast" id="forecast">
           <div class="row">
-            <div class="col-2">
+            <div class="col-6">
               <div class="weather-forecast-date"></div>
               Thu
             </div>
