@@ -9,7 +9,7 @@ function App() {
         <h1>Weather App</h1>
         <SearchEngine />
         <footer>
-          This project was coded by
+          This project was coded by{" "}
           <a
             href="https://github.com/c-robinson23"
             target="_blank"
@@ -17,15 +17,15 @@ function App() {
           >
             Candace Robinson
           </a>
-          , is
+          , is{" "}
           <a
             href="https://github.com/c-robinson23/react-weather-forecast-app"
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on GitHub
+            open-sourced on GitHub{" "}
           </a>
-          and
+          and{" "}
           <a
             href="https://aesthetic-ganache-13d759.netlify.app/"
             target="_blank"
