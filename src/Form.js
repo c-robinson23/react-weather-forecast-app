@@ -18,7 +18,9 @@ export default function Form() {
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="city"></h1>
+            <h1 class="weather-app-city" id="city">
+              City
+            </h1>
             <p class="weather-app-details">
               <span id="time"></span>,<span id="description"></span>
               <br />
