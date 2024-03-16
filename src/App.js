@@ -1,4 +1,4 @@
-import Form from "./Form";
+import SearchEngine from "./SearchEngine";
 
 import "./App.css";
 
@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello React World</h1>
-        <Form />
+        <h1>Weather App</h1>
+        <SearchEngine />
       </header>
     </div>
   );
