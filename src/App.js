@@ -1,13 +1,17 @@
-import Form from "./Form";
-
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello React World</h1>
-        <Form />
+        <div class="alert alert-primary" role="alert">
+          <p style={{ display: "none" }} className="d-block">
+            Bootstrap is now successfully installed 😃
+          </p>
+          <p className="d-none">
+            Bootstrap is not installed if you can see this 😢
+          </p>
+        </div>
       </header>
     </div>
   );

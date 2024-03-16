@@ -1,13 +1,13 @@
-.App body {
+.App .Form body {
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
 }
 
-.App a {
+.App .Form a {
   color: #885df1;
 }
 
-.App .weather-app {
+.App .Form .weather-app {
   background: white;
   max-width: 600px;
   margin: 45px auto;
@@ -16,12 +16,12 @@
   padding: 30px;
 }
 
-.App header {
+.App .Form header {
   border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
 }
 
-.App .search-form-input {
+.App .Form .search-form-input {
   background-color: #f9f7fe;
   border: none;
   border-radius: 6px;
@@ -30,7 +30,7 @@
   padding: 15px 20px;
 }
 
-.App .search-form-button {
+.App .Form .search-form-button {
   background: #885df1;
   padding: 15px 30px;
   border: none;
@@ -40,59 +40,59 @@
   color: white;
 }
 
-.App main {
+.App .Form main {
   padding: 30px 0;
 }
 
-.App .weather-app-data {
+.App .Form .weather-app-data {
   display: flex;
   justify-content: space-between;
 }
 
-.App .weather-app-city {
+.App .Form .weather-app-city {
   margin: 0;
   font-size: 38px;
   line-height: 48px;
 }
 
-.App .weather-app-details {
+.App .Form .weather-app-details {
   font-size: 16px;
   color: rgba(39, 33, 66, 0.4);
   line-height: 24px;
   font-weight: 500;
 }
 
-.App .weather-app-details strong {
+.App .Form .weather-app-details strong {
   color: #f65282;
 }
 
-.App .weather-app-temperature-container {
+.App .Form .weather-app-temperature-container {
   display: flex;
 }
 
-.App .weather-app-icon {
+.App .Form .weather-app-icon {
   width: 88px;
   height: 88px;
 }
 
-.App .weather-app-temperature {
+.App .Form .weather-app-temperature {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
 }
 
-.App .weather-app-unit {
+.App .Form .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
 }
 
-.App .weather-forecast {
+.App .Form .weather-forecast {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
 }
 
-.App .weather-forecast-date {
+.App .Form .weather-forecast-date {
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
@@ -100,13 +100,13 @@
   margin-bottom: 10px;
 }
 
-.App .weather-forecast-icon {
+.App .Form .weather-forecast-icon {
   width: 38px;
   height: 38px;
   display: block;
   margin: 0 auto;
 }
-.App .weather-forecast-temperatures {
+.App .Form .weather-forecast-temperatures {
   text-align: center;
   color: #f65282;
   margin-top: 10px;
@@ -114,15 +114,15 @@
   justify-content: center;
 }
 
-.App .weather-forecast-temperature-min {
+.App .Form .weather-forecast-temperature-min {
   opacity: 0.5;
 }
 
-.App .weather-forecast-temperature {
+.App .Form .weather-forecast-temperature {
   padding: 0 10px;
 }
 
-.App footer {
+.App .Form footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
   text-align: center;
