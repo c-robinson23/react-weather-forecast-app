@@ -8,7 +8,6 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
@@ -22,7 +21,6 @@ export default function Weather(props) {
   }
 
   function search() {
-    //we have to make the API call with city
     const apiKey = "2b6fdad0cbd018949c50c70f72250726";
 
     let apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
@@ -31,7 +29,7 @@ export default function Weather(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    // search for a city
+
     search();
   }
 
