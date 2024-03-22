@@ -13,7 +13,7 @@ export default function WeatherTemperature(props) {
   }
 
   function celsius() {
-    return ((props.fahrenheit - 32) * 5) / 9;
+    return (5 / 9) * (props.fahrenheit - 32);
   }
 
   if (unit === "fahrenheit") {
